@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(226, 224, 224);
+}
+
+.formulario img{
+    height: 106px;
+    margin: -28px;
+    position: relative;
+    top: 204px;
+    left: 185px;
+}
+
+.formulario h2{
+    font-weight: 400;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 204px;
+    left: 185px;
+    margin-top: 16px;
+
+}
+
+.form{
+    float: right;
+}
+
+.form .back{
+    background: white;
+    height: 350px;
+    width: 380px;
+    margin-right: 225px;
+    border-radius: 9px;
+    position: absolute;
+    top: 136px;
+    left: 775px;
+
+}
+
+.formulario .form input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 350px; 
+    margin-left: 20px;
+    margin-top: 15px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    outline: none;
+}
+
+.formulario .form input:focus{
+    border: 1px solid rgb(64, 64, 248);
+    box-shadow: 0px 0px 1px rgb(64, 64, 248);
+}
+
+.formulario .form .boton button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+.formulario .form .boton a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    position: absolute;
+    top: 210px;
+    left: 110px;
+}
+
+.div{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.boton2 button{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
+    height: 50px;
+    margin: 10px 110px;
+    border: none;
+    background: #05ca15;
+    color: white;
+    border-radius: 7px;
+}
+
+.formulario .form .parrafo{
+    position: relative;
+    top: 345px;
+    right: 225px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.formulario .form .parrafo span{
+    font-weight: bold;
+}
